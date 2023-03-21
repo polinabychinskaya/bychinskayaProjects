@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo Market</title>
+    <link rel="icon" type="image/x-icon" href="favicon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Section 1-->
+    <div class="upperNav">
+    <div id="namePosition">   
+        <a id="name">Zoo Market</a>
+    </div>
+    <div id="links">
+            <a href="#" style="cursor: pointer; text-decoration: none;" id="navLink">Products</a>
+            <a href="#" style="cursor: pointer; text-decoration: none;" id="navLink">About us</a>
+            <a href="#" style="cursor: pointer; text-decoration: none;" id="navLink">Contacts</a>
+            <a href="#orderNow" style="cursor: pointer"><img id="cart" src="cart.svg"></a>
+    </div>
+    </div>
+    <div class="welcomePage">
+        <div class="welcomeText">
+            <h1>High quality products <br>
+                for your pets</h1>
+            <p id="motto">Caring, sharing and loving!</p> <br>
+            <button id="showMore">Show more</button>
+        </div>
+        <div class="smallGallery">
+            <div><img id="cat" src="cat.jpg"></div>
+            <div><img id="dog" src="dog.jpg"></div>
+        </div>
+    </div>
+    <!--Section 2-->
+    <div class="species">
+        <div id="cardDog">
+            <img id="cardDogImg" src="dogCard.jpg">
+            <div>
+                <p style="color:#3d3d3d; margin-bottom: 25px; margin-top: 0px; margin-left: 25px;">Canine product line</p>
+            </div>
+        </div>
+        <div id="cardCat">
+            <img id="cardCatImg" src="catCard.jpg">
+            <div>
+                <p style="color:#3d3d3d; margin-bottom: 25px; margin-top: 0px; margin-left: 25px;">Feline product line</p>
+            </div>
+        </div>
+        <div id="cardRodent">
+            <img id="cardRodentImg" src="ratCard.jpg">
+            <div>
+                <p style="color:#3d3d3d; margin-bottom: 25px; margin-top: 0px; margin-left: 25px;">Rodent product line</p>
+            </div>
+        </div>
+        <div id="cardParrot">
+            <img id="cardParrotImg" src="parrotCard.jpg">
+            <div>
+                <p style="color:#3d3d3d; margin-bottom: 25px; margin-top: 0px; margin-left: 25px;">Bird product line</p>
+            </div>
+        </div>
+    </div>
+    <!--Section 3-->
+    <a name="orderNow"></a>
+    <div class="inTouch">
+        <h2>Order NOW!</h2>
+        <br>
+        <form target="_blank" name="order" method="post">
+        <div id="choceLine">
+            <select>
+                <option value="0">Choose your product</option>
+                <option value="1">Food</option>
+                <option value="2">Supplies</option>
+                <option value="3">Shelter</option>
+                <option value="4">Equipment</option>
+                <option value="5">Bedding</option>
+                <option value="6">Pharmacy</option>
+            </select>
+            <input type="text" placeholder="Firstname">
+            <input type="text" placeholder="Phone number">
+            <input type="submit" value="Order">
+        </div>
+        <br>
+        <label style="font-size: 15px; color: #3d3d3d; font-family: 'Roboto', sans-serif;" class="container">I agree to <a style="text-decoration:underline">privacy policy</a>.
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+        </label>
+        </form>
+    </div>
+    <!--Section 4-->
+    <div class="contacts">
+        <div id="contme">
+            <p style="color: #3d3d3d; font-size: 20px;">Keep in touch with us!<p>
+            <img style="width: 100px" src="logopaw.svg">
+        </div>
+        <div>
+            <a style="margin-right: 20px;" href="#"><img id="insta" src="insta.svg"></a>
+            <a style="margin-right: 50px;" target="_blank" href="https://t.me/lapetitepaulinka"><img id="tele" src="telegram.svg"></a>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
